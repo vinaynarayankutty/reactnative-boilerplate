@@ -10,7 +10,7 @@ import styles from './Styles';
 import {useDispatch, useSelector} from 'react-redux';
 import {fetchDataUser} from '../../stores/actions/UserActions';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = () => {
   const dispatch = useDispatch();
   const user = useSelector(state => state.userReducer.users);
 
