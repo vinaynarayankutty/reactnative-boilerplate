@@ -58,3 +58,12 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Yarn V3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
