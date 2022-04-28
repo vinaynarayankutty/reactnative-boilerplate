@@ -56,8 +56,9 @@ buck-out/
 # Bundle artifact
 *.jsbundle
 
-# CocoaPods
+# Ruby / CocoaPods
 /ios/Pods/
+<<<<<<< ours
 
 # Yarn V3
 .pnp.*
@@ -67,3 +68,6 @@ buck-out/
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+=======
+/vendor/bundle/
+>>>>>>> theirs
